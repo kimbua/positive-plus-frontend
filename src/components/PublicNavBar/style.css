@@ -1,0 +1,87 @@
+.bg-light {
+  background: transparent !important;
+  font-family: "Montserrat", sans-serif;
+
+  height: 8vh;
+}
+#logo {
+  padding-left: 1rem;
+  margin-left: 1rem;
+}
+.navbar-brand {
+  font-weight: 1000;
+}
+
+.bg-light.scrolled {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.95) 0%,
+    rgba(255, 255, 255, 0.95) 110%
+  ) !important;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.navbarA {
+  font-size: 1.8rem;
+  margin: 0 16px;
+  padding: 16px;
+  color: white !important;
+}
+.navbarB {
+  font-size: 1.8rem;
+  margin: 0 16px;
+  padding: 16px;
+  /* color: rgb(52, 100, 164); */
+  color: rgb(252, 164, 44) !important;
+}
+/* .navbarA.scrolled {
+  font-size: 1.8rem;
+  color: rgb(59, 114, 178) !important;
+} */
+.logo {
+  display: none;
+}
+.logoImg {
+  height: 4rem;
+  width: 4rem;
+  padding: 0.2rem !important;
+  border: 2px solid rgb(252, 164, 44);
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 1);
+}
+.logo.scrolled {
+  align-items: center;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(252, 164, 44);
+  margin-left: 2rem;
+  font-size: 1.8rem !important;
+  font-weight: 1000;
+}
+.nav-button {
+  background: rgb(252, 164, 44);
+  background: linear-gradient(
+    to right,
+    rgba(52, 100, 164, 0.8) 50%,
+    rgba(252, 164, 44, 1) 50%
+  );
+  background-size: 210% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+
+  border: 1px solid white !important;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+
+  max-width: 18rem;
+  max-height: 4rem;
+  border-radius: 60px;
+
+  color: white !important;
+  font-size: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+}
+.nav-button:hover {
+  background-position: left bottom;
+}
+.nav-button:focus {
+  background-color: gold;
+}
